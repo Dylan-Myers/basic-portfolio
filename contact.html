@@ -13,33 +13,34 @@
         
     <div class=button>
         <a href="index.html">
-                <button #b1>About</button>
+                <button #=b1>About</button>
         </a>
                 
         <a href="portfolio.html">
-            <button #b2>Portfolio</button>
+            <button #b=2>Portfolio</button>
         </a>
                 
         <a href="contact.html">
-            <button #b3>Contact</button>
+            <button #=b3>Contact</button>
         </a>
     </div>
 </header>
 
+<h1 Class=this>Contact</h1>
+
+<hr>
 
 <div class=form1>
     <body>
         
-        <h1 Class=this>Contact</h1>
-
     <form>
-        <label #name for="name"> Name</label>
+        <label #=name for="name"> Name</label>
         <input type="text" placeholder="Your Name">
 
-        <label #email for="email"> Email </label>
+        <label #=email for="email"> Email </label>
         <input type="text" placeholder="Your Email">
 
-        <label #message for="message"> Message </label>
+        <label #=message for="message"> Message </label>
         <input type="text">
 
         <input #input type="submit" value="Submit">
