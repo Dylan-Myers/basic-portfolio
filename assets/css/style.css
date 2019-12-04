@@ -12,64 +12,85 @@ Stylesheet for Portfolio
    background: #4aaaa5;
    text-align: center;
    font-family: 'Georgia', Times, Times New Roman, serif;
-   left: 9%;
+}
+
+.mainhead {
+   
+}
+
+.size {
+    width: 960px;
+    Margin: 200px
 }
 
 .text1 {
     text-align: center;
     font-size: 20px;
-    margin-left: 200px;
-    margin-right: 200px;
 }
 
 .this {
     color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif ;
     font-size: 30px;
-    margin-left: 220px
 }
 
 #me {
-    margin-left: 200px;
     height: 200px;
     width: 300px;
 }
 
 .button {
     float: right;
-    margin-right: 200px;
 }
 
-#b1 {
-    height: 40px;
-    width: 120%;
+.b1 {
+    font-size: 20px;
     border:none;
     background: white;
     color: #4aaaa5;
-    
 }
 
-#b2 {
-    height: 40px;
-    width: 120%;
+.b2 {
+    font-size: 20px;
     border:none;
     background: white;
     color: #4aaaa5;
-    margin-right: 0;
 }
 
-#b3 {
-    height: 40px;
-    width: 120%;
+.b3 {
+    font-size: 20px;
     border:none;
     background: white;
     color: #4aaaa5;
-    clear: both;
 }
 
 .form1 {
     text-align: left;
     padding: 80px;
-    margin-left: 200px;
-    margin-right: 200px;
+}
+
+#img1 {
+    padding: 50px;
+}
+
+#img2 {
+    padding: 50px;
+}
+
+#img3 {
+    padding: 50px;
+}
+
+
+#img4 {
+    padding: 50px;
+}
+
+#img5 {
+    padding: 50px;
+}
+
+.form1 {
+    display: block;
+    text-align: center;
 }
